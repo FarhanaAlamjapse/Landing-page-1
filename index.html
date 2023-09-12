@@ -6,7 +6,252 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Landing Page</title>
   </head>
-  <body>
-    <h1>hi</h1>
+  <body class="bg-blue-100">
+    <nav class="bg-blue-900 shadow-xl sticky top-0 z-10">
+      <div class="container mx-auto">
+        <div class="sm:flex justify-between items-center py-5">
+          <div class="text-center mb-3">
+            <a class="text-xl text-white sm:text-3xl font-bold" href="#"
+              ><span class="text-orange-700">H</span>ealthCar<span
+                class="text-orange-700"
+                >e</span
+              ></a
+            >
+          </div>
+          <ul
+            class="sm:flex text-xl text-white text-center border-t sm:border-none"
+          >
+            <li class="mt-4 sm:mt-0">
+              <a href="#" class="p-3 text-[#F65023]">Home</a>
+            </li>
+            <li><a href="#" class="p-3 hover:text-[#F65023]">About Us</a></li>
+            <li><a href="#" class="p-3 hover:text-[#F65023]">Services</a></li>
+            <li>
+              <a href="#" class="p-3 hover:text-[#F65023]">Appointments</a>
+            </li>
+            <li><a href="#" class="p-3 hover:text-[#F65023]">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div
+        class="container mx-auto border border-indigo-400 border-t-0 text-white justify-around text-center items-center sm:flex h-[80vh] px-10 pt-10"
+      >
+        <div>
+          <h1 class="text-3xl font-bold text-indigo-900 sm:text-5xl mb-5">
+            Want To Make An <br />Appointment
+          </h1>
+          <button
+            class="bg-indigo-900 transition px-6 py-3 mb-4 rounded-full text-lg shadow-xl hover:bg-indigo-950"
+          >
+            Schedule a free demo
+            <svg
+              class="w-7 inline-block text-red-500 ml-2 animate-ping"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div>
+          <img
+            src="images/apooint3.jpg"
+            alt=""
+            class="h-[350px] animate-pulse"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto">
+      <section class="mt-24">
+        <h2
+          class="text-gray-800 font-bold text-center text-4xl mt-32 sm:mt-20 mb-12"
+        >
+          Our Services
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div
+            class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="images/service1.avif" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-4 my-5">
+              Appointment Scheduling
+            </h4>
+            <p class="text-white">
+              Users can book appointments at their convenience, choosing the
+              date and time that suits them best.
+            </p>
+          </div>
+          <div
+            class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="images/service2.avif" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-4 my-5">
+              User Registration
+            </h4>
+            <p class="text-white">
+              Allow users to create accounts or profiles, making it easier for
+              them to manage and track their appointments.
+            </p>
+          </div>
+          <div
+            class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="images/service3.avif" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-4 my-5">
+              Multiple Location Support
+            </h4>
+            <p class="text-white">
+              If you have multiple locations, the system should support
+              appointments for each location.
+            </p>
+          </div>
+
+          <div
+            class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="images/service4.webp" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-4 my-5">
+              Service Selection
+            </h4>
+            <p class="text-white">
+              Offer a list of available services or providers, along with
+              descriptions, durations, and prices.
+            </p>
+          </div>
+          <div
+            class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="images/service55.avif" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-4 my-5">
+              Payment Integration
+            </h4>
+            <p class="text-white">
+              Accept payments online for appointments, either in full or as a
+              deposit, if applicable.
+            </p>
+          </div>
+          <div
+            class="bg-gray-800 p-8 rounded-lg text-center border-4 border-[#1F2937] hover:border-indigo-700 cursor-pointer"
+          >
+            <img class="w-1/2 mx-auto" src="images/service66.avif" alt="" />
+            <h4 class="text-white text-lg underline underline-offset-4 my-5">
+              Mobile Responsiveness
+            </h4>
+            <p class="text-white">
+              Ensure the booking system works smoothly on mobile devices for
+              users on the go.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="bg-slate-900 mt-16 py-16 mb-24 md:py-48 grid place-content-center text-center"
+      >
+        <div
+          class="md:flex justify-center items-center text-white gap-5 sm:gap-8 md:gap-12"
+        >
+          <div class="text-lg sm:text-xl md:text-4xl">
+            <p class="text-yellow-400 my-10 animate-bounce">
+              HealthCare In News
+            </p>
+           
+            </h2>
+          </div>
+
+          <div
+            class="grid sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-8 md:gap-x-48"
+          >
+            <div>
+              <img class="rounded-full" src="images/news1.png" alt="" />
+             
+            </div>
+            <div>
+              <img class="rounded-full" src="images/news2.jpg" alt="" />
+              
+            </div>
+            <div>
+              <img class="rounded-full" src="images/news3.jpg" alt="" />
+              
+            </div>
+            <div>
+              <img class="rounded-full" src="images/news4.jpg" alt="" />
+             
+            </div>
+            <div>
+              <img class="rounded-full" src="images/news5.png" alt="" />
+             
+            </div>
+            <div>
+              <img class="rounded-full" src="images/news6.png" alt="" />
+              
+            </div>
+            <div>
+              <img class="rounded-full" src="images/news7.jpg" alt="" />
+             
+            </div>
+            <div>
+              <img class="rounded-full" src="images/news8.jpg" alt="" />
+             
+            </div>
+            <div>
+              <img class="rounded-full" src="images/news9.jpg" alt="" />
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-[#1F2937] py-16 sm:py-24" >
+        <div>
+          <h3 class="text-center text-xl sm:text-3xl text-white mb-10">
+            Contact Us
+          </h3>
+          <form>
+            <input
+              class="block mx-auto mb-10 w-5/6 sm:w-1/2 h-12 border-2 border-orange-800 rounded px-5 placeholder:text-black placeholder:font-semibold"
+              type="email"
+              placeholder="Your Email"
+            />
+            <input
+              class="block mx-auto mb-10 w-5/6 sm:w-1/2 h-12 border-2 border-orange-800 rounded px-5 placeholder:text-black placeholder:font-semibold"
+              type="tel"
+              placeholder="Phone"
+              size="15"
+            />
+            <select
+              required
+              class="block mx-auto mb-10 w-5/6 sm:w-1/2 h-12 border-2 font-semibold border-orange-800 rounded px-5"
+            >
+              <option value="">Male</option>
+              <option value="">Female</option>
+            </select>
+            <textarea
+              class="block mx-auto w-5/6 sm:w-1/2 border-2 border-orange-800 h-52 px-5 py-5 placeholder:text-black placeholder:font-semibold"
+              placeholder="Your question"
+            ></textarea>
+            <button
+              class="block mx-auto bg-green-900 px-5 py-5 text-white text-xl mt-8 hover:bg-green-600 rounded-lg transition"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
